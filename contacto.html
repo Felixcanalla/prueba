@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Plantas y Jardines</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+
+</head>
+<body>
+    <header>
+        <h1>Plantas y Jardines</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Ponte en contacto con nosotros para obtener más información sobre nuestros productos y servicios.</p>
+            <form action="enviar_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">face<i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank">twi<i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank">insta<i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="mapa">
+            <!-- Aquí puedes insertar el código del mapa, como un iframe de Google Maps -->
+        </div>
+        <p>© 2023 Plantas y Jardines. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
