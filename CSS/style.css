@@ -7,13 +7,19 @@ body {
     margin: 0;
     padding: 0;
     background-color: #b6b5b5;
+    
+
 }
+
+
 
 header {
     background-color: black;
     color: white;
     text-align: center;
     padding: 1rem 0;
+    position:fixed;
+    width: 100%;
 }
 
 nav ul {
@@ -64,6 +70,10 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+#contacto{
+    padding: 1rem 0;
 }
 
 .producto {
@@ -119,6 +129,9 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
+    
+    bottom: 0;
+    width: 100%;
 }
 
 .redes-sociales {
