@@ -76,6 +76,8 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s;
+    
+    
 }
 
 .producto:hover {
@@ -135,6 +137,8 @@ footer {
 .redes-sociales a:hover {
     color: #34a853;
 }
+
+
 
 .mapa {
     /* Agrega estilos para el mapa, como altura y márgenes */
