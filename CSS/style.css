@@ -5,7 +5,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0  ;
     background-color: #b6b5b5;
     
 
@@ -17,9 +17,10 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: auto   ;
     position:fixed;
     width: 100%;
+    top: 0;
 }
 
 nav ul {
@@ -47,7 +48,7 @@ nav ul li a:hover {
 
 main {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 100px ;
     padding: 2rem;
 }
 
@@ -62,6 +63,8 @@ h2 {
     margin: 0 0 1rem;
     font-size: 2rem;
     color: #333;
+    padding: auto  ;
+    margin-top: 20px;
 }
 
 #catalogo {
@@ -73,7 +76,11 @@ h2 {
 }
 
 #contacto{
-    padding: 1rem 0;
+    margin-top: 20px;
+    padding: auto;
+    height: 800px;
+    
+
 }
 
 .producto {
